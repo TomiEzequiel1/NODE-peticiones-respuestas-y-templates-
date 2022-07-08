@@ -1,0 +1,48 @@
+#titulo {
+    color:brown;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(37, 36, 36);
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ol {
+  background-color: peru;  
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid rgb(41, 39, 39);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 200px;
+  text-decoration: underline;
+  line-height: 25px;
+  
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+    background-color: rgb(36, 34, 34);
+}
+
+h3 {
+    color: brown;
+    border: 5px solid black;
+    width: 300px;
+
+}
+
+label {
+    font-weight: bold;
+    
+}
+ 
+    
+
+
