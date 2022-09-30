@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    
+    <script>
+        
+       const numero_1 = parseInt(prompt( "Ingrese el primer numero:", ''))
+       const numero_2 = parseInt(prompt( "Ingrese el segundo numero:", ''))
+       const numero_3 = parseInt(prompt( "Ingrese el tercer numero:", ''))
+       const numero_4 = parseInt(prompt( "Ingrese el cuarto numero:", ''))
+       const numero_5 = parseInt(prompt( "Ingrese el quineto numero:", ''))  
+
+       if (numero_1 > numero_2 &&  numero_1 > numero_3 && numero_1 > numero_4 && numero_1 > numero_5) {
+          document.write(`El numero mayor es: ${numero_1} ` )
+          } else if (numero_2 > numero_1 &&  numero_2 > numero_3 && numero_2 > numero_4 && numero_2 > numero_5) {
+          document.write(`El numero mayor es: ${numero_2} ` )
+          } else if (numero_3 > numero_1 &&  numero_3 > numero_2 && numero_3 > numero_4 && numero_3 > numero_5 ) {
+          document.write(`El numero mayor es: ${numero_3} ` )
+          } else if (numero_4 > numero_1 &&  numero_4 > numero_2 && numero_4 > numero_3 && numero_4 > numero_5 ) {
+          document.write(`El numero mayor es: ${numero_4} `)
+          } else if (numero_5 > numero_1 &&  numero_5 > numero_2 && numero_5 > numero_4 && numero_5 > numero_3) {
+          document.write(`El numero mayor es: ${numero_5} `)   
+          } else {
+          document.write("Todos los numeros son iguales")  
+       }
+
+    </script>
+
+</body>
+</html>
